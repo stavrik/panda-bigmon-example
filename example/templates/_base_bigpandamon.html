@@ -1,0 +1,49 @@
+{% extends "_base_grid.html" %}{% load url from future %}
+{% load static from staticfiles %}
+
+{% block page_title %}Example PanDA{% endblock %}
+{% block title %}Example PanDA monitor{% endblock %}
+{% block subtitle %}Example PanDA monitor home page{% endblock %}
+{% block bl_page_title %}Example PanDA Monitoring{% endblock %}
+{% block extra_css %}{% endblock %}
+{% block extra_js %}{% endblock %}
+{% block gacode %}UA-44940804-1{% endblock %}
+{% block gaweb %}pandawms.org{% endblock %}
+
+{% comment %}  
+{% block top_menu_1 %}{% endblock %}
+{% block top_menu_all_2 %}{% endblock %}{% block top_menu_all_3 %}{% endblock %}
+{% block top_menu_all_4 %}{% endblock %}{% block top_menu_all_5 %}{% endblock %}
+{% block top_menu_6 %}
+          <a href="#">Help</a>
+          <ul class="dropdown">
+            <li><a href="http://pandawms.org/monreq">Monitoring requirements</a></li>
+          </ul>
+{% endblock %}
+{% endcomment %}
+{% block header-nav-chain-1 %}{% endblock %}{% block header-nav-chain-1-separator %}{% endblock %}  
+{% block header-nav-chain-2 %}{% endblock %}{% block header-nav-chain-2-separator %}{% endblock %}  
+{% block header-nav-chain-3 %}{% endblock %}{% block header-nav-chain-3-separator %}{% endblock %}  
+{% block header-nav-chain-4 %}{% endblock %}{% block header-nav-chain-4-separator %}{% endblock %}  
+{% block header-nav-chain-5 %}{% endblock %}{% block header-nav-chain-5-separator %}{% endblock %}  
+{% block header-nav-chain-6 %}{% endblock %}
+{% block left_menu %}{% endblock %}
+{% block body %}
+<p>
+Welcome to the Example PanDA monitor.
+{% endblock %}
+{% block body_mobile %}{% endblock %}
+{% block bottom_info %}{% endblock %}
+{% block bottom_copy %}
+    <table borderwidth=0><tr><td valign="bottom">
+  <a href="https://twiki.cern.ch/twiki/bin/view/PanDA/PanDA">
+  <img src="{% static "images/panda-verysmall-notext.png" %}">
+  </a></td><td valign="bottom"><font size=-1>Brought to you by the PanDA team. All times are in UTC.<br><a href="http://twiki.cern.ch/twiki/bin/view/PanDA/PanDA">PanDA home</a> &nbsp; <a href="http://pandawms.org">BigPanDA home</a></font></td></tr></table>
+{% endblock %}
+{% block bottom_link_all_1 %}{% endblock %}
+{% block bottom_link_all_2 %}{% endblock %}
+{% block bottom_link_all_3 %}{% endblock %}
+{% block bottom_link_all_4 %}{% endblock %}
+
+
+
