@@ -44,7 +44,6 @@ DATABASES = {
    },
 }
 
-
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'FIXME'
 
@@ -57,5 +56,21 @@ defaultDatetimeFormat = defaultDatetimeFormatOracle
 
 # log directory
 LOG_ROOT = 'FIXME'
+
+DATABASE_ROUTERS = []
+
+VOMODE = 'FIXME'
+
+ENV = {
+    ### Application name
+    'APP_NAME': 'FIXME', \
+    ### Page title default
+    'PAGE_TITLE': 'FIXME', \
+    ### Menu item separator
+    'SEPARATOR_MENU_ITEM': "&nbsp;&nbsp;&nbsp;", \
+    ### Navigation chain item separator
+    'SEPARATOR_NAVIGATION_ITEM': "&nbsp;&#187;&nbsp;" , \
+}
+
 
 
