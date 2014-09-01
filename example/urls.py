@@ -9,7 +9,7 @@ common_patterns = patterns('',
 
     ### the front page
    # url(r'^$', index, name='index'),
-    url(r'^', include('core.common.urls')),
+    url(r'^', include('core.common.common_urls')),
 
 
     ### Django Admin
